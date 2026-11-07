@@ -1327,6 +1327,25 @@ transform: none;
     background: var(--brown);
 }
 
+.new-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: linear-gradient(135deg, #c9a96e, #e8d5a5);
+    color: #111;
+    padding: 6px 15px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    z-index: 5;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* لازم الكارت يكون position relative */
+.product-card {
+    position: relative;
+}
 
 /* ==========================
    14. RESPONSIVE
